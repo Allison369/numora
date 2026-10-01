@@ -1,0 +1,32 @@
+{
+  "name": "telerent-telephony-platform",
+  "version": "1.0.0",
+  "description": "Commercial Phone Number Rental Platform with Telecom API Integration, Real-Time SMS Routing, and Automated Billing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db:init": "node db/init.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1",
+    "stripe": "^17.5.0",
+    "uuid": "^11.0.5"
+  },
+  "keywords": [
+    "phone-number-rental",
+    "voip",
+    "telephony",
+    "twilio",
+    "telnyx",
+    "sms-routing",
+    "virtual-numbers"
+  ],
+  "author": "TeleRent",
+  "license": "ISC"
+}
